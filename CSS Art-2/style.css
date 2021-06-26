@@ -1,0 +1,94 @@
+*{
+    padding: 0; margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(192, 255, 255);
+}
+
+.smartphone{
+    position: absolute;
+    left: 40%;
+    top: 40px;
+    height:530px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.849);
+    border: 2px solid rgba(0, 0, 0, 0.678);
+    border-radius: 15px;
+    /* box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.637), -15px -15px 25px rgba(255, 255, 255, 0.637); */
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.637);
+}
+
+
+.camera{
+    display: inline-block;
+    height:13px;
+    width: 13px;
+    /* border: 2px solid black; */
+    background-color: black;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 104px;
+}
+
+.speaker{
+    display: inline-block;
+    height: 7px;
+    width: 50px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: inset 0 0 8px black;
+}
+
+.sensor{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.screen{
+    height: 410px;
+    width: 280px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: url("https://source.unsplash.com/kMpsA4yxNJI");
+    background-position: center;
+}
+
+.screen p{
+    display: inline-block;
+    font-size: 15px;
+}
+
+.screen .network{
+    margin-left: 4px;
+}
+
+.screen .time{
+    margin-left: 75px;
+}
+
+.screen .battary{
+    height: 9px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.602);
+    margin-left: 98px;
+}
+
+.botton{
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: auto;
+    /* margin-left: 110px; */
+    margin-top: 6px;
+    box-shadow: inset 0 0 5px black;
+}
