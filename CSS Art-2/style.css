@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
 *{
-    padding: 0; margin: 0;
+    padding: 0; margin: 0; font-family: 'Source Sans Pro', sans-serif; font-weight: bold;
 }
 
 .container{
@@ -15,10 +17,10 @@
     height:530px;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.849);
-    border: 2px solid rgba(0, 0, 0, 0.678);
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 15px;
     /* box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.637), -15px -15px 25px rgba(255, 255, 255, 0.637); */
-    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.637);
+    box-shadow: 10px 10px 15px  rgba(0, 0, 0, 0.637);
 }
 
 
@@ -59,6 +61,7 @@
     border-radius: 10px;
     background: url("https://source.unsplash.com/kMpsA4yxNJI");
     background-position: center;
+    position: relative;
 }
 
 .screen p{
@@ -80,6 +83,36 @@
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.602);
     margin-left: 98px;
+}
+
+.screen ul{
+    list-style: none;
+}
+
+.screen li{
+    display: inline-block;
+    
+}
+
+.screen ul li img{
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.screen .icons .icon{
+    display: inline-block;
+    position: relative;
+    top: 320px;
+}
+
+.screen .icons .icon img{
+    height: 50px;
+    width: 50px;
+    margin: 8px;
 }
 
 .botton{
